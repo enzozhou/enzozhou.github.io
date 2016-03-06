@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-03-03T14:14:55.087Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2016/03/03/hello-world/"/>
+    <id>http://yoursite.com/2016/03/03/hello-world/</id>
+    <published>2016-03-03T14:14:55.072Z</published>
+    <updated>2016-03-03T14:14:55.087Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Asp.Net发布Sqlite</title>
+    <link href="http://yoursite.com/2016/02/25/asp-net-e5-8f-91-e5-b8-83sqlite/"/>
+    <id>http://yoursite.com/2016/02/25/asp-net-e5-8f-91-e5-b8-83sqlite/</id>
+    <published>2016-02-24T23:43:36.000Z</published>
+    <updated>2016-03-03T14:30:11.400Z</updated>
+    
+    <content type="html">&lt;p&gt;ASP.Net发布包含有Sqlite的应用时候没有包含SQLite.Interop.dll文件，Sqlite是区分32位和64位的，在程序编译的目录会生成x64和x86的2个文件夹，每次发布好Web应用时候这2个文件夹不会包含在发布目录，通过如下办法可以实现每次发布的文件中包含这2个目录。&lt;/p&gt;
+&lt;p&gt;从编译的bin目录复制 x64和x86这2个文件夹到Web应用的根目录，右键SQLite.Interop.dll文件属性，设置复制到输出目录选择如果较新则复制，生成操作选无，设置为内容发布时会包含在根目录，我们的目的是要实现文件在bin目录下，2个目录下的SQLite.Interop.dll都要设置，设置完成后再发布bin目录下面就会有x64和x86目录了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://php-zq613.rhcloud.com/wp-content/uploads/2016/02/image.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;https://php-zq613.rhcloud.com/wp-content/uploads/2016/02/image_thumb.png&quot; alt=&quot;image&quot; title=&quot;image&quot;&gt;&lt;/a&gt;&amp;nbsp; &lt;a href=&quot;https://php-zq613.rhcloud.com/wp-content/uploads/2016/02/image-1.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;https://php-zq613.rhcloud.com/wp-content/uploads/2016/02/image_thumb-1.png&quot; alt=&quot;image&quot; title=&quot;image&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;ASP.Net发布包含有Sqlite的应用时候没有包含SQLite.Interop.dll文件，Sqlite是区分32位和64位的，在程序编译的目录会生成x64和x86的2个文件夹，每次发布好Web应用时候这2个文件夹不会包含在发布目录，通过如下办法可以实现每次发布的文件中
+    
+    </summary>
+    
+      <category term="Uncategorized" scheme="http://yoursite.com/categories/Uncategorized/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SqlDbx personal 版本可以多开解决办法</title>
+    <link href="http://yoursite.com/2014/12/03/sqldbx-personal-e7-89-88-e6-9c-ac-e5-8f-af-e4-bb-a5-e5-a4-9a-e5-bc-80-e8-a7-a3-e5-86-b3-e5-8a-9e-e6-b3-95/"/>
+    <id>http://yoursite.com/2014/12/03/sqldbx-personal-e7-89-88-e6-9c-ac-e5-8f-af-e4-bb-a5-e5-a4-9a-e5-bc-80-e8-a7-a3-e5-86-b3-e5-8a-9e-e6-b3-95/</id>
+    <published>2014-12-02T19:21:51.000Z</published>
+    <updated>2016-03-03T14:30:11.400Z</updated>
+    
+    <content type="html">&lt;p&gt;外挂一个.net 写的console程序，通过多线程打开SqlDbx.exe程序，不用去对原始文件做修改。&lt;/p&gt;
+&lt;p&gt;我使用的是 SqlDbx3.65版本，其他版本只要是personal的版本应该问题不大的。&lt;/p&gt;
+&lt;p&gt;程序源代码如下&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt; int amount = 0;&lt;br&gt; int.TryParse(ConfigurationManager.AppSettings[“OpenAmount”], out amount);&lt;br&gt; for (int i = 0; i &amp;lt; amount; i++)&lt;br&gt; {&lt;br&gt; new Thread(new ThreadStart(Open)).Start();&lt;br&gt; }&lt;/pre&gt;&lt;/p&gt;
+&lt;p&gt; static void Open()&lt;br&gt; {&lt;br&gt; string fileName = ConfigurationManager.AppSettings[“AppName”];&lt;br&gt; if (fileName != “”)&lt;br&gt; {&lt;br&gt; Process process = Process.Start(new ProcessStartInfo(fileName));&lt;br&gt; }&lt;br&gt; else&lt;br&gt; {&lt;br&gt; Console.WriteLine(“空的文件名你开个毛线啊。”);&lt;br&gt; }&lt;br&gt; }&lt;br&gt;&lt;br&gt;编译好的文件见附件，替换到SqlDbx目录，运行OpenFileMultiThread.exe就好了，附件中OpenFileMultiThread.exe.config可以修改文件名和打开的SqlDbx的数量。&lt;br&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/12/OpenFileMultiThread.zip&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;附件&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;外挂一个.net 写的console程序，通过多线程打开SqlDbx.exe程序，不用去对原始文件做修改。&lt;/p&gt;
+&lt;p&gt;我使用的是 SqlDbx3.65版本，其他版本只要是personal的版本应该问题不大的。&lt;/p&gt;
+&lt;p&gt;程序源代码如下&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt; in
+    
+    </summary>
+    
+      <category term="支持原创" scheme="http://yoursite.com/categories/%E6%94%AF%E6%8C%81%E5%8E%9F%E5%88%9B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[转自jobbole]21个挑战题，几杯咖啡的时间，来试试(Javascript持续实现中...)</title>
+    <link href="http://yoursite.com/2014/11/13/e8-bd-ac-e8-87-aajobbole21-e4-b8-aa-e6-8c-91-e6-88-98-e9-a2-98-ef-bc-8c-e5-87-a0-e6-9d-af-e5-92-96-e5-95-a1-e7-9a-84-e6-97-b6-e9-97-b4-ef-bc-8c-e6-9d-a5-e8-af-95-e8-af-95javascript-e6-8c-81/"/>
+    <id>http://yoursite.com/2014/11/13/e8-bd-ac-e8-87-aajobbole21-e4-b8-aa-e6-8c-91-e6-88-98-e9-a2-98-ef-bc-8c-e5-87-a0-e6-9d-af-e5-92-96-e5-95-a1-e7-9a-84-e6-97-b6-e9-97-b4-ef-bc-8c-e6-9d-a5-e8-af-95-e8-af-95javascript-e6-8c-81/</id>
+    <published>2014-11-12T23:22:41.000Z</published>
+    <updated>2016-03-03T14:30:11.400Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;pre&gt;2) 一百万&lt;br&gt; 挑战：将 1,000,000 写成两个数的乘积，两个数都不包含零。&lt;br&gt;(function(){&lt;br&gt; for(var i = 1;i&amp;lt;500000;i++){&lt;br&gt;   if(i % 10 &amp;gt; 0 &amp;amp;&amp;amp; 1000000/i % 10 &amp;gt; 0 &amp;amp;&amp;amp; 1000000 % i == 0){&lt;br&gt;     document.write(i + “_” + 1000000 / i);&lt;br&gt;     break;&lt;br&gt;   }&lt;br&gt; }&lt;br&gt;})();&lt;/pre&gt;&lt;br&gt;&lt;a href=&quot;http://blog.jobbole.com/75812/&quot; title=&quot;http://blog.jobbole.com/75812/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;21个挑战题，几杯咖啡的时间，来试试&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;pre&gt;2) 一百万&lt;br&gt; 挑战：将 1,000,000 写成两个数的乘积，两个数都不包含零。&lt;br&gt;(function(){&lt;br&gt; for(var i = 1;i&amp;lt;500000;i++){&lt;br&gt;   if(i % 10 &amp;gt; 0 &amp;amp;&amp;amp; 1
+    
+    </summary>
+    
+      <category term="技术笔记" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>不受重视的基础知识</title>
+    <link href="http://yoursite.com/2014/09/30/e4-b8-8d-e5-8f-97-e9-87-8d-e8-a7-86-e7-9a-84-e5-9f-ba-e7-a1-80-e7-9f-a5-e8-af-86/"/>
+    <id>http://yoursite.com/2014/09/30/e4-b8-8d-e5-8f-97-e9-87-8d-e8-a7-86-e7-9a-84-e5-9f-ba-e7-a1-80-e7-9f-a5-e8-af-86/</id>
+    <published>2014-09-29T17:51:00.000Z</published>
+    <updated>2016-03-03T14:30:11.400Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;SQL-join&quot;&gt;&lt;a href=&quot;#SQL-join&quot; class=&quot;headerlink&quot; title=&quot;SQL join&quot;&gt;&lt;/a&gt;SQL join&lt;/h1&gt;&lt;p&gt;JOIN: 如果表中有至少一个匹配，则返回行&lt;br&gt;LEFT JOIN: 即使右表中没有匹配，也从左表返回所有的行&lt;br&gt;RIGHT JOIN: 即使左表中没有匹配，也从右表返回所有的行&lt;br&gt;FULL JOIN: 只要其中一个表中存在匹配，就返回行&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/sql-joins1.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/sql-joins1-600x472.jpg&quot; alt=&quot;sql-joins[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;图片来源：&lt;a href=&quot;http://newkidondablock.wordpress.com/2012/08/24/understanding-sql-with-your-high-school-math/&quot; title=&quot;UNDERSTANDING SQL WITH YOUR HIGH-SCHOOL MATH&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UNDERSTANDING SQL WITH YOUR HIGH-SCHOOL MATH&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;SQL-join&quot;&gt;&lt;a href=&quot;#SQL-join&quot; class=&quot;headerlink&quot; title=&quot;SQL join&quot;&gt;&lt;/a&gt;SQL join&lt;/h1&gt;&lt;p&gt;JOIN: 如果表中有至少一个匹配，则返回行&lt;br&gt;LEFT JOIN: 即使右表中没有匹配
+    
+    </summary>
+    
+      <category term="技术笔记" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>npm 配置</title>
+    <link href="http://yoursite.com/2014/09/22/npm-e9-85-8d-e7-bd-ae/"/>
+    <id>http://yoursite.com/2014/09/22/npm-e9-85-8d-e7-bd-ae/</id>
+    <published>2014-09-21T22:08:31.000Z</published>
+    <updated>2016-03-03T14:30:11.400Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;img src=&quot;https://www.npmjs.org/static/img/npm.png&quot; alt=&quot;npm&quot;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;设置代理&lt;br&gt;$ npm config set proxy &lt;a href=&quot;http://ip:port&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://ip:port&lt;/a&gt;&lt;br&gt;&amp;nbsp;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://www.npmjs.org/static/img/npm.png&quot; alt=&quot;npm&quot;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;设置代理&lt;br&gt;$ npm config set proxy &lt;a href=&quot;http://ip:port&quot; targe
+    
+    </summary>
+    
+      <category term="技术笔记" scheme="http://yoursite.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>太有才了，比喻的很恰当，实在经典！(组图)</title>
+    <link href="http://yoursite.com/2014/09/08/e5-a4-aa-e6-9c-89-e6-89-8d-e4-ba-86-ef-bc-8c-e6-af-94-e5-96-bb-e7-9a-84-e5-be-88-e6-81-b0-e5-bd-93-ef-bc-8c-e5-ae-9e-e5-9c-a8-e7-bb-8f-e5-85-b8-ef-bc-81-e7-bb-84-e5-9b-be/"/>
+    <id>http://yoursite.com/2014/09/08/e5-a4-aa-e6-9c-89-e6-89-8d-e4-ba-86-ef-bc-8c-e6-af-94-e5-96-bb-e7-9a-84-e5-be-88-e6-81-b0-e5-bd-93-ef-bc-8c-e5-ae-9e-e5-9c-a8-e7-bb-8f-e5-85-b8-ef-bc-81-e7-bb-84-e5-9b-be/</id>
+    <published>2014-09-07T22:30:10.000Z</published>
+    <updated>2016-03-03T14:30:11.400Z</updated>
+    
+    <content type="html">&lt;p&gt;1、油条：不受煎熬，不会成熟；总受煎熬，会成为老油条。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516601_small1.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516601_small1-150x150.jpg&quot; alt=&quot;20140904094516601_small[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;2、面包：渺小时，比较充实；伟大后，觉得空虚。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516986_small1.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516986_small1-150x150.jpg&quot; alt=&quot;20140904094516986_small[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3、拉面：想成功，得有人拉一把。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516851_small1.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516851_small1-150x150.jpg&quot; alt=&quot;20140904094516851_small[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4、饺子：脸皮不能太厚。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516192_small1.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516192_small1-150x150.jpg&quot; alt=&quot;20140904094516192_small[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;5、啤酒：别急，总有让你冒泡的时候。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516180_small1.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516180_small1-150x150.jpg&quot; alt=&quot;20140904094516180_small[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;6、蟹：&lt;a href=&quot;http://www.secretchina.com/tag/%E4%B8%80%E8%BE%88%E5%AD%90&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;一辈子&lt;/a&gt;只能&lt;a href=&quot;http://www.secretchina.com/tag/%E7%BA%A2%E6%9E%81%E4%B8%80%E6%97%B6&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;红极一时&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945161881.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945161881-150x150.jpg&quot; alt=&quot;20140904094516188[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;7、豆腐：关键阶段，需要点化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516334_small1.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516334_small1-150x150.jpg&quot; alt=&quot;20140904094516334_small[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;8、窝头：还是留个心眼好。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945168991.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945168991-150x150.jpg&quot; alt=&quot;20140904094516899[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;9、蜘蛛：能坐享其成，靠的就是那张关系网。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945162401.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945162401-150x150.jpg&quot; alt=&quot;20140904094516240[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;10、虾：大红之日，便是大悲之时。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945166021.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945166021-150x150.jpg&quot; alt=&quot;20140904094516602[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;11、天平：谁多给一点，就偏向谁。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945169281.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945169281-150x150.jpg&quot; alt=&quot;20140904094516928[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;12、瀑布：因居高临下，才口若悬河。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945165501.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945165501-150x150.jpg&quot; alt=&quot;20140904094516550[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;13、锯子：伶牙俐齿，专做离间行为。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945167501.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945167501-150x150.jpg&quot; alt=&quot;20140904094516750[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;14、气球：只要被人一吹，便飘飘然了。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945167851.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945167851-150x150.jpg&quot; alt=&quot;20140904094516785[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;15、钟表：可以回到起点，却已不是昨天。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945166761.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945166761-150x150.jpg&quot; alt=&quot;20140904094516676[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;16、核桃：没有华丽的外表，却有充实的大脑。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945164701.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945164701-150x150.jpg&quot; alt=&quot;20140904094516470[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;17、指南针：思想稳定，东西再好也不被诱惑。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945164011.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945164011-150x150.jpg&quot; alt=&quot;20140904094516401[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;18、花瓶：外表再漂亮，也掩不住内心的空虚。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945169631.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945169631-150x150.jpg&quot; alt=&quot;20140904094516963[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;19、树叶：得势时趾高气扬，失意时威风扫地。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945166351.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945166351-150x150.jpg&quot; alt=&quot;20140904094516635[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;20、历史的标点全是问号，历史的幕后全是惊叹号。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945167291.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/09/201409040945167291-150x150.jpg&quot; alt=&quot;20140904094516729[1]&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;来源 墙外站点&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1、油条：不受煎熬，不会成熟；总受煎熬，会成为老油条。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/09/20140904094516601_small1.jpg&quot; target=&quot;_blank&quot; rel
+    
+    </summary>
+    
+      <category term="转载" scheme="http://yoursite.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GraphiTabs – 图形化整理标签页[Chrome]</title>
+    <link href="http://yoursite.com/2014/08/13/graphitabs-e5-9b-be-e5-bd-a2-e5-8c-96-e6-95-b4-e7-90-86-e6-a0-87-e7-ad-be-e9-a1-b5chrome/"/>
+    <id>http://yoursite.com/2014/08/13/graphitabs-e5-9b-be-e5-bd-a2-e5-8c-96-e6-95-b4-e7-90-86-e6-a0-87-e7-ad-be-e9-a1-b5chrome/</id>
+    <published>2014-08-13T01:48:35.000Z</published>
+    <updated>2016-03-03T14:30:11.400Z</updated>
+    
+    <content type="html">&lt;p&gt;GraphiTabs&lt;span style=&quot;color: #000000;&quot;&gt; 能自动将多个 Chrome 标签页以横向思维导图的样式整理并显示出来，非常适合多标签页爱好者，通过标签页暂停，可以有效控制活跃标签页的数量，除了节能还&lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;给你减少阅读压力。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/08/Capture.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/08/Capture.png&quot; alt=&quot;Capture&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;对于拖延症患者来说，浏览器上方的标签页没有最多只有更多，到最后只有连标题都看不清楚了才能想起来如何开上百个标签，标签不会自动变窄，或许你能用 &lt;strong&gt;GraphiTabs&lt;/strong&gt; 碰碰运气。&lt;/p&gt;
+&lt;div style=&quot;color: #000000;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;打开 &lt;strong&gt;GraphiTabs&lt;/strong&gt; 后会看到一张横向的思维导图，里面是当前全部打开的标签页，并且如果同一网站有打开多个标签页，那么这几个标签页会被分为同一组。&lt;/p&gt;
+&lt;p&gt;在右下角可以放大缩小整个页面，就能方便的看清楚几十上百个标签页了，选中一个标签页点击左边栏的 &lt;strong&gt;Suspend&lt;/strong&gt; 按钮，还能将其暂停回收，这样平时就看不到该标签页了，只有再次点击 &lt;strong&gt;Restore&lt;/strong&gt; 恢复时，才重新打开。&lt;/p&gt;
+&lt;p&gt;在 &lt;strong&gt;GraphiTabs&lt;/strong&gt; 左上角统计着当前的浏览器状况，比如上图就是打开了一个 Chrome 窗口，5个激活的标签页以及 6 个暂停标签页。处女座的同学可以想办法将数字清除…&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;GraphiTabs&lt;span style=&quot;color: #000000;&quot;&gt; 能自动将多个 Chrome 标签页以横向思维导图的样式整理并显示出来，非常适合多标签页爱好者，通过标签页暂停，可以有效控制活跃标签页的数量，除了节能还&lt;/span&gt;&lt;span style=&quot;c
+    
+    </summary>
+    
+      <category term="Uncategorized" scheme="http://yoursite.com/categories/Uncategorized/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Some people dream of success... while others work hard at it.</title>
+    <link href="http://yoursite.com/2014/07/29/some-people-dream-of-success-while-others-work-hard-at-it/"/>
+    <id>http://yoursite.com/2014/07/29/some-people-dream-of-success-while-others-work-hard-at-it/</id>
+    <published>2014-07-28T19:59:07.000Z</published>
+    <updated>2016-03-03T14:30:11.400Z</updated>
+    
+    <content type="html">&lt;p&gt;写的很好 拿来鼓励自己&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/07/Capture.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/07/Capture.png&quot; alt=&quot;Capture&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;写的很好 拿来鼓励自己&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/07/Capture.png&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq61
+    
+    </summary>
+    
+      <category term="转载" scheme="http://yoursite.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Stackoverflow 10个坑爹的代码注释</title>
+    <link href="http://yoursite.com/2014/07/07/stackoverflow-10-e4-b8-aa-e5-9d-91-e7-88-b9-e7-9a-84-e4-bb-a3-e7-a0-81-e6-b3-a8-e9-87-8a/"/>
+    <id>http://yoursite.com/2014/07/07/stackoverflow-10-e4-b8-aa-e5-9d-91-e7-88-b9-e7-9a-84-e4-bb-a3-e7-a0-81-e6-b3-a8-e9-87-8a/</id>
+    <published>2014-07-06T19:48:58.000Z</published>
+    <updated>2016-03-03T14:30:11.400Z</updated>
+    
+    <content type="html">&lt;p&gt;# &lt;/p&gt;
+&lt;div class=&quot;entry-content&quot;&gt;&lt;br&gt;&lt;br&gt;下面是&lt;a href=&quot;http://stackoverflow.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;stackoverflow&lt;/a&gt;网站上网友针对&lt;a href=&quot;http://stackoverflow.com/questions/184618/what-is-the-best-comment-in-source-code-you-have-ever-encountered?page=1&amp;amp;tab=votes#tab-top&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;你看到过的最好的代码注释是什么样的？&lt;/a&gt;这个问题给出的回答的前10条：&lt;span id=&quot;more-2970&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;1.  // 亲爱的维护者：&lt;br&gt;    // 如果你尝试了对这段程序进行‘优化’，&lt;br&gt;    // 并认识到这种企图是大错特错，请增加&lt;br&gt;    // 下面这个计数器的个数，用来对后来人进行警告：&lt;br&gt;    // 浪费在这里的总时间 = 39h&lt;code&gt;&amp;lt;/pre&amp;gt;
+2.  &amp;lt;pre style=&amp;quot;color: #666666;&amp;quot;&amp;gt;&lt;/code&gt;/&lt;em&gt;* &lt;/em&gt; 致终于来到这里的勇敢的人：&lt;br&gt;        你是被上帝选中的人，英勇的、不辞劳苦的、不眠不修的来修改&lt;br&gt;    我们这最棘手的代码的编程骑士。你，我们的救世主，人中之龙，&lt;br&gt;    我要对你说：永远不要放弃，永远不要对自己失望，永远不要逃走，辜负了自己。&lt;br&gt;    永远不要哭啼，永远不要说再见。永远不要说谎来伤害自己。 &lt;em&gt;/&lt;code&gt;&amp;lt;/pre&amp;gt;
+3.  &amp;lt;pre style=&amp;quot;color: #666666;&amp;quot;&amp;gt;&lt;/code&gt;Exception up = new Exception(“Something is really wrong.”); throw up; &lt;code&gt;&amp;lt;/pre&amp;gt;
+4.  &amp;lt;pre style=&amp;quot;color: #666666;&amp;quot;&amp;gt;&lt;/code&gt;// 一些修改1 - 2002/6/7 增加临时的跟踪登录界面&lt;br&gt;    // 一些修改2 - 2007/5/22 我临时的犯傻&lt;code&gt;&amp;lt;/pre&amp;gt;
+5.  &amp;lt;pre style=&amp;quot;color: #666666;&amp;quot;&amp;gt;&lt;/code&gt;#define TRUE FALSE //逗一逗调试程序的傻瓜们&lt;code&gt;&amp;lt;/pre&amp;gt;
+6.  &amp;lt;pre style=&amp;quot;color: #666666;&amp;quot;&amp;gt;&lt;/code&gt;if (/&lt;/em&gt;you*/ $_GET[‘action’]) { //celebrate(恭喜)&lt;code&gt;&amp;lt;/pre&amp;gt;
+7.  &amp;lt;pre style=&amp;quot;color: #666666;&amp;quot;&amp;gt;&lt;/code&gt;// 如果这段代码好用，那它是Paul DiLascia写的。&lt;br&gt;    //如果不好用，我不知道是谁写的。&lt;code&gt;&amp;lt;/pre&amp;gt;
+8.  &amp;lt;pre style=&amp;quot;color: #666666;&amp;quot;&amp;gt;&lt;/code&gt;//写这段代码的时候，只有上帝和我知道它是干嘛的&lt;br&gt;    //现在，只有上帝知道&lt;code&gt;&amp;lt;/pre&amp;gt;
+9.  &amp;lt;pre style=&amp;quot;color: #666666;&amp;quot;&amp;gt;&lt;/code&gt;// 晕了，以后再修改&lt;code&gt;&amp;lt;/pre&amp;gt;
+10.  &amp;lt;pre style=&amp;quot;color: #666666;&amp;quot;&amp;gt;&lt;/code&gt;// 神奇。勿动。&lt;br&gt;转自：&lt;a href=&quot;http://www.vaikan.com/10-best-code-comments/&quot; title=&quot;10个最“优秀”的代码注释&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;10个最“优秀”的代码注释&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;# &lt;/p&gt;
+&lt;div class=&quot;entry-content&quot;&gt;&lt;br&gt;&lt;br&gt;下面是&lt;a href=&quot;http://stackoverflow.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;stackoverflow&lt;/a&gt;网站上网友针对&lt;
+    
+    </summary>
+    
+      <category term="转载" scheme="http://yoursite.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>uploadify 添加文件上传后删除文件功能#转</title>
+    <link href="http://yoursite.com/2014/07/01/uploadify-e6-b7-bb-e5-8a-a0-e6-96-87-e4-bb-b6-e4-b8-8a-e4-bc-a0-e5-90-8e-e5-88-a0-e9-99-a4-e6-96-87-e4-bb-b6-e5-8a-9f-e8-83-bd-e8-bd-ac/"/>
+    <id>http://yoursite.com/2014/07/01/uploadify-e6-b7-bb-e5-8a-a0-e6-96-87-e4-bb-b6-e4-b8-8a-e4-bc-a0-e5-90-8e-e5-88-a0-e9-99-a4-e6-96-87-e4-bb-b6-e5-8a-9f-e8-83-bd-e8-bd-ac/</id>
+    <published>2014-07-01T01:10:40.000Z</published>
+    <updated>2016-03-03T14:30:11.399Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Add-function-for-upload-success-click-cancel-button-delete-upload-file&quot;&gt;&lt;a href=&quot;#Add-function-for-upload-success-click-cancel-button-delete-upload-file&quot; class=&quot;headerlink&quot; title=&quot;Add function for upload success click cancel button delete upload file&quot;&gt;&lt;/a&gt;Add function for upload success click cancel button delete upload file&lt;/h2&gt;&lt;p&gt;转&lt;a href=&quot;http://www.oschina.net/question/552545_89332&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.oschina.net/question/552545_89332&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;color: #737573;&quot;&gt;开源中国(OsChina.NET)原始代码&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&#39;onUploadSuccess&#39; : function(file, data, response) {  
+    var cancel=$(&quot;#&quot;+file.id + &quot; .cancel a&quot;);
+    if (cancel) {
+    cancel.on(&#39;click&#39;,function () {
+    //在这此处处理...
+    //通过uploadify的settings方式重置上传限制数量
+    $(&#39;#upload&#39;).uploadify(&#39;settings&#39;,&#39;uploadLimit&#39;, ++uploadLimit);
+    //防止手快多点几次x，把x隐藏掉
+    $(this).hide();
+    });
+    } 
+},
+运行上面的代码会报错
+需要修改为如下：&lt;/pre&gt;
+&lt;pre&gt;&#39;onUploadSuccess&#39; : function(file, data, response) {  
+    var cancel=$(&quot;#&quot;+file.id + &quot; .cancel a&quot;);
+    if (cancel) {
+    cancel.on(&#39;click&#39;,function () {
+    //在这此处处理...
+    //通过uploadify的settings方式重置上传限制数量
+        &lt;span style=&quot;text-decoration: underline;&quot;&gt;var uploadLimit = $(&#39;#file_upload&#39;).uploadify(&#39;settings&#39;, &#39;uploadLimit&#39;);&lt;/span&gt;
+    $(&#39;#upload&#39;).uploadify(&#39;settings&#39;,&#39;uploadLimit&#39;, ++uploadLimit);
+    //防止手快多点几次x，把x隐藏掉
+    $(this).hide();
+        //添加代码删除文件
+    });
+    } 
+},&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Add-function-for-upload-success-click-cancel-button-delete-upload-file&quot;&gt;&lt;a href=&quot;#Add-function-for-upload-success-click-cancel-butto
+    
+    </summary>
+    
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="技术笔记" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="jQuery" scheme="http://yoursite.com/tags/jQuery/"/>
+    
+      <category term="js" scheme="http://yoursite.com/tags/js/"/>
+    
+      <category term="uploadify" scheme="http://yoursite.com/tags/uploadify/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>T-SQL WITH 分号问题</title>
+    <link href="http://yoursite.com/2014/06/27/t-sql-with-e5-88-86-e5-8f-b7-e9-97-ae-e9-a2-98/"/>
+    <id>http://yoursite.com/2014/06/27/t-sql-with-e5-88-86-e5-8f-b7-e9-97-ae-e9-a2-98/</id>
+    <published>2014-06-26T19:41:44.000Z</published>
+    <updated>2016-03-03T14:30:11.399Z</updated>
+    
+    <content type="html">&lt;p&gt;使用with 前面有sql语句时候&lt;br&gt;运行&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt;with tempTbale(id) as (&lt;br&gt;select …..&lt;br&gt;)&lt;br&gt;select * from tempTbale&lt;/pre&gt;&lt;br&gt;运行上面语句 提示下面错误&lt;/p&gt;
+&lt;p&gt;Incorrect syntax near the keyword ‘with’. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.&lt;/p&gt;
+&lt;p&gt;从stackoverflow找到解释，需要在with前加”;”，&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt;;with tempTbale(id) as (&lt;br&gt;select …..&lt;br&gt;)&lt;br&gt;select * from tempTbale&lt;/pre&gt;&lt;br&gt;链接如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/17217379/msg-319-level-15-state-1-incorrect-syntax-near-the-keyword-with&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Msg 319, Level 15, State 1, “Incorrect syntax near the keyword ‘with’.” &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;MSDN 定义如下&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://msdn.microsoft.com/zh-cn/library/ms175972(v=sql.100&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WITH common_table_expression (Transact-SQL)&lt;/a&gt;.aspx “ WITH common_table_expression (Transact-SQL)”)&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用with 前面有sql语句时候&lt;br&gt;运行&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt;with tempTbale(id) as (&lt;br&gt;select …..&lt;br&gt;)&lt;br&gt;select * from tempTbale&lt;/pre&gt;&lt;br&gt;运行上面语句 提示下面错误&lt;/p&gt;
+&lt;p&gt;I
+    
+    </summary>
+    
+      <category term="T-SQL" scheme="http://yoursite.com/categories/T-SQL/"/>
+    
+    
+      <category term="sql" scheme="http://yoursite.com/tags/sql/"/>
+    
+      <category term="stackoverflow" scheme="http://yoursite.com/tags/stackoverflow/"/>
+    
+      <category term="t-sql" scheme="http://yoursite.com/tags/t-sql/"/>
+    
+      <category term="Transact-SQL" scheme="http://yoursite.com/tags/Transact-SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Google HomePage Football</title>
+    <link href="http://yoursite.com/2014/06/19/google-homepage-football/"/>
+    <id>http://yoursite.com/2014/06/19/google-homepage-football/</id>
+    <published>2014-06-18T17:40:33.000Z</published>
+    <updated>2016-03-03T14:30:11.399Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/06/world-cup-2014-17-6237353874030592-hp.gif&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/world-cup-2014-17-6237353874030592-hp.gif&quot; alt=&quot;world-cup-2014-17-6237353874030592-hp&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/06/world-cup-2014-17-6237353874030592-hp.gif&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;
+    
+    </summary>
+    
+      <category term="足球" scheme="http://yoursite.com/categories/%E8%B6%B3%E7%90%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Nike CTR 360 Maestri III</title>
+    <link href="http://yoursite.com/2014/06/18/nike-ctr-360-maestri-iii/"/>
+    <id>http://yoursite.com/2014/06/18/nike-ctr-360-maestri-iii/</id>
+    <published>2014-06-18T00:23:02.000Z</published>
+    <updated>2016-03-03T14:30:11.395Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/06/Nike-CTR360-Maestri-III.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/Nouvelle-Nike-CTR360.jpg&quot; alt=&quot;Nouvelle-Nike-CTR360&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/Nike-CTR360-Maestri-III.jpg&quot; alt=&quot;Nike-CTR360-Maestri-III&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/06/46185.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/46185.jpg&quot; alt=&quot;46185&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&quot;http://rcm-cn.amazon-adsystem.com/e/cm?t=zhouquan-23&amp;o=28&amp;p=8&amp;l=as1&amp;asins=B00HGSU66C&amp;ref=tf_til&amp;fc1=000000&amp;IS2=1&amp;lt1=_blank&amp;m=amazon&amp;lc1=0000FF&amp;bc1=000000&amp;bg1=FFFFFF&amp;f=ifr&quot; style=&quot;width:120px;height:240px;&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/06/Nike-CTR360-Maestri-III.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.c
+    
+    </summary>
+    
+      <category term="足球" scheme="http://yoursite.com/categories/%E8%B6%B3%E7%90%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>小米盒子遥控器添加到iPhone桌面</title>
+    <link href="http://yoursite.com/2014/06/11/e5-b0-8f-e7-b1-b3-e7-9b-92-e5-ad-90-e9-81-a5-e6-8e-a7-e5-99-a8-e6-b7-bb-e5-8a-a0-e5-88-b0-e6-a1-8c-e9-9d-a2/"/>
+    <id>http://yoursite.com/2014/06/11/e5-b0-8f-e7-b1-b3-e7-9b-92-e5-ad-90-e9-81-a5-e6-8e-a7-e5-99-a8-e6-b7-bb-e5-8a-a0-e5-88-b0-e6-a1-8c-e9-9d-a2/</id>
+    <published>2014-06-11T00:46:17.000Z</published>
+    <updated>2016-03-03T14:30:11.395Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://weixin.duokanbox.com/weixin/controller&quot; title=&quot;打开遥控器链接&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;打开遥控器链接&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/06/image.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/image-338x600.jpg&quot; alt=&quot;image&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/06/image1.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/image1-338x600.jpg&quot; alt=&quot;image&quot;&gt;&lt;/a&gt;&lt;br&gt;选择添加到主屏幕就好了&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://weixin.duokanbox.com/weixin/controller&quot; title=&quot;打开遥控器链接&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;打开遥控器链接&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://zq6
+    
+    </summary>
+    
+      <category term="Uncategorized" scheme="http://yoursite.com/categories/Uncategorized/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2014中国软件开发者调查</title>
+    <link href="http://yoursite.com/2014/06/09/2014-e4-b8-ad-e5-9b-bd-e8-bd-af-e4-bb-b6-e5-bc-80-e5-8f-91-e8-80-85-e8-b0-83-e6-9f-a5/"/>
+    <id>http://yoursite.com/2014/06/09/2014-e4-b8-ad-e5-9b-bd-e8-bd-af-e4-bb-b6-e5-bc-80-e5-8f-91-e8-80-85-e8-b0-83-e6-9f-a5/</id>
+    <published>2014-06-09T00:12:33.000Z</published>
+    <updated>2016-03-03T14:30:11.395Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;2014中国软件开发者调查（一）：Java最受欢迎-第二语言JS使用比例最高&quot;&gt;&lt;a href=&quot;#2014中国软件开发者调查（一）：Java最受欢迎-第二语言JS使用比例最高&quot; class=&quot;headerlink&quot; title=&quot;2014中国软件开发者调查（一）：Java最受欢迎 第二语言JS使用比例最高&quot;&gt;&lt;/a&gt;&lt;strong&gt;2014中国软件开发者调查（一）：Java最受欢迎 第二语言JS使用比例最高&lt;/strong&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;调查显示，主要的开发软件类型是：互联网后端、企业应用及移动应用客户端，开发者面向的系统主要是Windows、Linux和Windows Server，开发者第一编程语言使用最多的是Java，第二语言则是JavaScript。&lt;/p&gt;
+&lt;p&gt;具体见&lt;a href=&quot;http://www.csdn.net/article/2014-06-06/2820116&quot; title=&quot;2014中国软件开发者调查（一）：Java最受欢迎 第二语言JS使用比例最高&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSDN 2014中国软件开发者调查（一）&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2014中国软件开发者调查（二）：Java、-NET、Web、云计算技术应用特点&quot;&gt;&lt;a href=&quot;#2014中国软件开发者调查（二）：Java、-NET、Web、云计算技术应用特点&quot; class=&quot;headerlink&quot; title=&quot;2014中国软件开发者调查（二）：Java、.NET、Web、云计算技术应用特点&quot;&gt;&lt;/a&gt;2014中国软件开发者调查（二）：Java、.NET、Web、云计算技术应用特点&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;调查显示，Java开发者使用最多的JDK版本是JDK1.6和1.7，.NET开发者最满意语言和框架设施的齐全，不满意则是被限定在Windows平台上，在对Web开发者调查中，高达14.18％开发者不知道他的Web应用页面是否符合Web标准。&lt;/p&gt;
+&lt;p&gt;具体见&lt;a href=&quot;http://www.csdn.net/article/2014-06-08/2820122/1&quot; title=&quot;2014中国软件开发者调查（二）：Java、.NET、Web、云计算技术应用特点&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CSDN 2014中国软件开发者调查（二）&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;2014中国软件开发者调查（一）：Java最受欢迎-第二语言JS使用比例最高&quot;&gt;&lt;a href=&quot;#2014中国软件开发者调查（一）：Java最受欢迎-第二语言JS使用比例最高&quot; class=&quot;headerlink&quot; title=&quot;2014中国软件开发者调查（一）
+    
+    </summary>
+    
+      <category term="转载" scheme="http://yoursite.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>历届世界杯Logo</title>
+    <link href="http://yoursite.com/2014/06/06/e5-8e-86-e5-b1-8a-e4-b8-96-e7-95-8c-e6-9d-aflogo/"/>
+    <id>http://yoursite.com/2014/06/06/e5-8e-86-e5-b1-8a-e4-b8-96-e7-95-8c-e6-9d-aflogo/</id>
+    <published>2014-06-06T01:26:52.000Z</published>
+    <updated>2016-03-03T14:30:11.395Z</updated>
+    
+    <content type="html">&lt;div class=&quot;slider tournament-slider&quot; style=&quot;width: 750px;&quot; data-require=&quot;lang=en/slider&quot; data-itemsperpage=&quot;6&quot; data-itemscount=&quot;22&quot; data-currentpage=&quot;1&quot;&gt;&lt;br&gt;&lt;div class=&quot;slider-nav&quot;&gt;&lt;/div&gt;&lt;br&gt;&lt;div class=&quot;slider-wrap&quot;&gt;&lt;br&gt;&lt;div class=&quot;slider-nav-elm nav-page-1 active&quot; data-page=&quot;1&quot;&gt;&lt;a href=&quot;#&quot;&gt;1930/1958&lt;/a&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/uruguay1930/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Uruguay 1930 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1930.png&quot; alt=&quot;1930&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/italy1934/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Italy 1934 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1934.png&quot; alt=&quot;1934&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/france1938/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;France 1938 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1938.png&quot; alt=&quot;1938&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/brazil1950/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Brazil 1950 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1950.png&quot; alt=&quot;1950&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/switzerland1954/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Switzerland 1954 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1954.png&quot; alt=&quot;1954&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/sweden1958/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sweden 1958 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1958.png&quot; alt=&quot;1958&quot;&gt;&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;slider-nav-elm nav-page-2&quot; data-page=&quot;2&quot;&gt;&lt;a href=&quot;#&quot;&gt;1962/1982&lt;/a&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/chile1962/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Chile 1962 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1962.png&quot; alt=&quot;1962&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/england1966/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;England 1966 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1966.png&quot; alt=&quot;1966&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/mexico1970/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mexico 1970 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1970.png&quot; alt=&quot;1970&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/germany1974/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Germany 1974 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1974.png&quot; alt=&quot;1974&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/argentina1978/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Argentina 1978 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1978.png&quot; alt=&quot;1978&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/spain1982/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Spain 1982 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1982.png&quot; alt=&quot;1982&quot;&gt;&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;slider-nav-elm nav-page-3&quot; data-page=&quot;3&quot;&gt;&lt;a href=&quot;#&quot;&gt;1986/2006&lt;/a&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/mexico1986/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mexico 1986 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1986.png&quot; alt=&quot;1986&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/italy1990/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Italy 1990 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1990.png&quot; alt=&quot;1990&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/usa1994/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;USA 1994 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1994.png&quot; alt=&quot;1994&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/france1998/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;France 1998 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/1998.png&quot; alt=&quot;1998&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/koreajapan2002/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Korea Japan 2002&lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/2002.png&quot; alt=&quot;2002&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/germany2006/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Germany 2006 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/2006.png&quot; alt=&quot;2006&quot;&gt;&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;slider-nav-elm nav-page-4&quot; data-page=&quot;4&quot;&gt;&lt;a href=&quot;#&quot;&gt;2010/2022&lt;/a&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.fifa.com/tournaments/archive/worldcup/southafrica2010/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;South Africa 2010 &lt;/a&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/2010.png&quot; alt=&quot;2010&quot;&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h4 id=&quot;Brazil-2014&quot;&gt;&lt;a href=&quot;#Brazil-2014&quot; class=&quot;headerlink&quot; title=&quot;Brazil 2014&quot;&gt;&lt;/a&gt;Brazil 2014&lt;/h4&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/2014.png&quot; alt=&quot;2014&quot;&gt;&lt;/div&gt;&lt;br&gt;&lt;em&gt;   &lt;a href=&quot;http://www.fifa.com/worldcup/russia2018/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Russia 2018&lt;/a&gt;&lt;br&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/next.png&quot; alt=&quot;2018&quot;&gt;&lt;/div&gt;
+&lt;/em&gt;   &lt;a href=&quot;http://www.fifa.com/worldcup/qatar2022/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Who know 2022?&lt;/a&gt;&lt;br&gt;&lt;div class=&quot;tournament-logo&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/06/next.png&quot; alt=&quot;2022&quot;&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;slider tournament-slider&quot; style=&quot;width: 750px;&quot; data-require=&quot;lang=en/slider&quot; data-itemsperpage=&quot;6&quot; data-itemscount=&quot;22&quot; data-cu
+    
+    </summary>
+    
+      <category term="足球" scheme="http://yoursite.com/categories/%E8%B6%B3%E7%90%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Betanews修改注册表可让XP继续接收更新到2019年</title>
+    <link href="http://yoursite.com/2014/05/27/betanews-e4-bf-ae-e6-94-b9-e6-b3-a8-e5-86-8c-e8-a1-a8-e5-8f-af-e8-ae-a9xp-e7-bb-a7-e7-bb-ad-e6-8e-a5-e6-94-b6-e6-9b-b4-e6-96-b0-e5-88-b02019-e5-b9-b4/"/>
+    <id>http://yoursite.com/2014/05/27/betanews-e4-bf-ae-e6-94-b9-e6-b3-a8-e5-86-8c-e8-a1-a8-e5-8f-af-e8-ae-a9xp-e7-bb-a7-e7-bb-ad-e6-8e-a5-e6-94-b6-e6-9b-b4-e6-96-b0-e5-88-b02019-e5-b9-b4/</id>
+    <published>2014-05-27T00:33:32.000Z</published>
+    <updated>2016-03-03T14:30:11.395Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;a href=&quot;http://betanews.com/2014/05/26/how-to-continue-getting-free-security-updates-for-windows-xp-until-2019/&quot; title=&quot;How to continue getting free security updates for Windows XP -- until 2019&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Betanews&lt;/a&gt;报道，简单的修改Windows XP的注册表可以欺骗Windows Update 继续提供更新。但这未必能确保系统的安全。&lt;/p&gt;
+&lt;p&gt;创建一个文本文件，将后缀改为reg，&lt;span style=&quot;color: #222222;&quot;&gt;如果它不显示为一个注册表文件，打开任意文件夹，点击工具&amp;gt;文件夹选项，选择查看并取消选中“显示隐藏的文件和文件夹”，&lt;/span&gt;&lt;span style=&quot;color: #222222;&quot;&gt;这应该可以解决问题。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;然后输入下面的内容&lt;/p&gt;
+&lt;p&gt;Windows Registry Editor Version 5.00&lt;/p&gt;
+&lt;p&gt;[HKEY_LOCAL_MACHINE\SYSTEM\WPA\PosReady]&lt;/p&gt;
+&lt;p&gt;“Installed”=dword:00000001&lt;/p&gt;
+&lt;p&gt;保存，再运行reg文件执行之后就能将已经终止支持的桌面系统XP伪装成嵌入式系统Windows Embedded POSReady 2009，后者的终止支持日期为2019年4月9日。运行Windows Update后你会找到多个系统组件更新。但嵌入式系统是设计运行嵌入式应用而不是桌面应用，所以XP用户还是应该尽快更新到新的操作系统。&lt;/p&gt;
+&lt;p&gt;这个办法只适合xp 32位系统，64位解决办法见&lt;a href=&quot;http://www.sebijk.com/community/board15-other/board73-tutorials/2985-getting-xp-updates/&quot; title=&quot;64位xp修改&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://betanews.com/2014/05/26/how-to-continue-getting-free-security-updates-for-windows-xp-until-2019/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://betanews.com/wp-content/uploads/2014/05/XP-reg.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://betanews.com/2014/05/26/how-to-continue-getting-free-security-updates-for-windows-xp-until-2019/&quot; title=&quot;How to continue 
+    
+    </summary>
+    
+      <category term="转载" scheme="http://yoursite.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>历史上的今天0512</title>
+    <link href="http://yoursite.com/2014/05/12/e5-8e-86-e5-8f-b2-e4-b8-8a-e7-9a-84-e4-bb-8a-e5-a4-a9/"/>
+    <id>http://yoursite.com/2014/05/12/e5-8e-86-e5-8f-b2-e4-b8-8a-e7-9a-84-e4-bb-8a-e5-a4-a9/</id>
+    <published>2014-05-11T18:44:29.000Z</published>
+    <updated>2016-03-03T14:30:11.395Z</updated>
+    
+    <content type="html">&lt;p&gt;5月12日：国际护士节、中华人民共和国的防灾减灾日&lt;br&gt;1551年&lt;br&gt;美洲历史最为悠久的大学国立圣马尔科斯大学在秘鲁利马成立。&lt;br&gt;1797年&lt;br&gt;在法国大革命战争中，拿破仑·波拿巴率领法国军队成功占领威尼斯共和国。&lt;br&gt;1942年&lt;br&gt;苏联军队在谢苗·康斯坦丁诺维奇·铁木辛哥的领导下大规模进攻乌克兰苏维埃社会主义共和国东部地区，在2个礼拜后顺利包围并且歼灭德军部队。&lt;br&gt;1949年&lt;br&gt;苏联宣布解除对英国、美国和法国3国占领的西柏林之封锁，作为第一次柏林危机的柏林封锁正式结束（图）。&lt;br&gt;2008年&lt;br&gt;中国四川省汶川县发生规模8.3Mw的强烈地震，造成至少69,227人死亡、超过374,000人受伤、17,923多人失踪以及480万人失去家园。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;维基百科 [海纳百川，有容乃大]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;2008–5-12 我来魔都第二天。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;5月12日：国际护士节、中华人民共和国的防灾减灾日&lt;br&gt;1551年&lt;br&gt;美洲历史最为悠久的大学国立圣马尔科斯大学在秘鲁利马成立。&lt;br&gt;1797年&lt;br&gt;在法国大革命战争中，拿破仑·波拿巴率领法国军队成功占领威尼斯共和国。&lt;br&gt;1942年&lt;br&gt;苏联军队在谢苗·康斯坦
+    
+    </summary>
+    
+      <category term="转载" scheme="http://yoursite.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>网易图集:那些被央视封杀过的明星 乌龙照片</title>
+    <link href="http://yoursite.com/2014/05/09/e7-bd-91-e6-98-93-e5-9b-be-e9-9b-86-e9-82-a3-e4-ba-9b-e8-a2-ab-e5-a4-ae-e8-a7-86-e5-b0-81-e6-9d-80-e8-bf-87-e7-9a-84-e6-98-8e-e6-98-9f-e4-b9-8c-e9-be-99-e7-85-a7-e7-89-87/"/>
+    <id>http://yoursite.com/2014/05/09/e7-bd-91-e6-98-93-e5-9b-be-e9-9b-86-e9-82-a3-e4-ba-9b-e8-a2-ab-e5-a4-ae-e8-a7-86-e5-b0-81-e6-9d-80-e8-bf-87-e7-9a-84-e6-98-8e-e6-98-9f-e4-b9-8c-e9-be-99-e7-85-a7-e7-89-87/</id>
+    <published>2014-05-09T08:07:52.000Z</published>
+    <updated>2016-03-03T14:30:11.395Z</updated>
+    
+    <content type="html">&lt;p&gt;写着天后邓丽君，照片却是林青霞。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/05/image.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://zq613.com/wp-content/uploads/2014/05/image.jpg&quot; alt=&quot;image&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;写着天后邓丽君，照片却是林青霞。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zq613.com/wp-content/uploads/2014/05/image.jpg&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;&lt;img src=&quot;http://z
+    
+    </summary>
+    
+      <category term="转载" scheme="http://yoursite.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+  </entry>
+  
+</feed>
