@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Ubuntu 下安装MySQL、Apache、PHP | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="任意位置打开终端。
+安装MySQL运行 sudo apt-get install mysql-server mysql-client，等待弹出窗口提示输入MySQL root 密码，需要输入2次，安装完成后需要测试安装成功 运行 mysql uroot -p
+看到欢迎信息 “Welcome to the MySQL monitor. ”表示安装好了。
+安装Apache运行 sudo apt-ge">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu 下安装MySQL、Apache、PHP">
+<meta property="og:url" content="http://yoursite.com/2014/05/02/ubuntu-e4-b8-8b-e5-ae-89-e8-a3-85mysql-e3-80-81apache-e3-80-81php/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="任意位置打开终端。
+安装MySQL运行 sudo apt-get install mysql-server mysql-client，等待弹出窗口提示输入MySQL root 密码，需要输入2次，安装完成后需要测试安装成功 运行 mysql uroot -p
+看到欢迎信息 “Welcome to the MySQL monitor. ”表示安装好了。
+安装Apache运行 sudo apt-ge">
+<meta property="og:updated_time" content="2016-03-03T14:30:11.395Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ubuntu 下安装MySQL、Apache、PHP">
+<meta name="twitter:description" content="任意位置打开终端。
+安装MySQL运行 sudo apt-get install mysql-server mysql-client，等待弹出窗口提示输入MySQL root 密码，需要输入2次，安装完成后需要测试安装成功 运行 mysql uroot -p
+看到欢迎信息 “Welcome to the MySQL monitor. ”表示安装好了。
+安装Apache运行 sudo apt-ge">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-ubuntu-e4-b8-8b-e5-ae-89-e8-a3-85mysql-e3-80-81apache-e3-80-81php" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/05/02/ubuntu-e4-b8-8b-e5-ae-89-e8-a3-85mysql-e3-80-81apache-e3-80-81php/" class="article-date">
+  <time datetime="2014-05-02T07:37:16.000Z" itemprop="datePublished">2014-05-02</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/技术笔记/">技术笔记</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Ubuntu 下安装MySQL、Apache、PHP
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <ol>
+<li><strong>任意位置打开终端。</strong></li>
+<li><strong>安装MySQL</strong><br>运行 <em>sudo apt-get install mysql-server mysql-client</em>，<br>等待弹出窗口提示输入MySQL root 密码，需要输入2次，<br>安装完成后需要测试安装成功 运行 <em>mysql uroot -p
+</em>看到欢迎信息 “Welcome to the MySQL monitor. ”表示安装好了。</li>
+<li><strong>安装Apache</strong><br>运行 <em><span style="color: #666666;">sudo apt-get install apache2</span></em><span style="color: #666666;"><span style="color: #666666;"> ,<br>安装完成后测试输入<a href="http://localhost或http://127.0.0.1" target="_blank" rel="external">http://localhost或http://127.0.0.1</a> 出现“It works!”信息表示安装成功。<br></span></span></li>
+</ol>
+<h1 id="It-works"><a href="#It-works" class="headerlink" title="It works!"></a>It works!</h1><ol>
+<li><strong>安装PHP 并让Apache支持PHP</strong><br>运行 <em><em><span style="color: #666666;">sudo apt-get install php5 libapache2-mod-php5<br></span></em></em></li>
+</ol>
+<p>安装完成后重启Apache服务器<br><em>sudo /etc/init.d/apache2 restart</em><br>然后进入Apache的www文件夹下(默认在/var里面)，创建phpinfo.php文件<br><em>cd /var/www</em><br><em>ls</em><br><em>vi phpinfo.php</em><br>然后在phpinfo.php文件里写入<br>&lt;?php<br>phpinfo();<br>?&gt;<br>运行:w可能无法保存。<br>www目录没有写权限，所以需要对www目录赋予写权限<br>运行 <em>sudo chmod 777 /var/www</em> 提示输入用户密码，www目录写权限有了，可以保存phpinfo.php文件了。<br>浏览器打开<a href="http://localhost/phpinfo.php就可以看到php信息了。" target="_blank" rel="external">http://localhost/phpinfo.php就可以看到php信息了。</a></p>
+<ol>
+<li><strong>安装的php-mysql软件包以及其它的一些常用的模块
+</strong><em>sudo apt-get install php5-mysql php5-curl php5-gd php5-idn php-pear php5-imagick php5-imap php5-mcrypt php5-memcache php5-ming php5-ps php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl
+</em>安装好之后需要重启Apache <em>sudo /etc/init.d/apache2 restart，</em>重启完就可一看到安装的模块了。</li>
+<li><strong>安装phpMyAdmin</strong><br>通过phpMyAdmin可以很方便的管理我们的MySQL数据库<br><em>sudo apt-get install phpmyadmin
+</em>安装过程中会问是否要配置phpmyadmin，我们选择“YES”<br>然后需要输入MySQL的密码，直至安装完成。<br>由于默认情况下phpMyAdmin的安装路径为<em>/usr/share/phpmyadmin/</em>，那么我们把phpmyadmin移动到/var/www/目录下：<br><em>sudo mv /usr/share/phpmyadmin /var/www</em><br>然后<a href="http://localhost/phpmyadmin访问，就到了phpMyAdmin的登陆界面_" target="_blank" rel="external">http://localhost/phpmyadmin访问，就到了phpMyAdmin的登陆界面_</a><br>_</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2014/05/02/ubuntu-e4-b8-8b-e5-ae-89-e8-a3-85mysql-e3-80-81apache-e3-80-81php/" data-id="cilcdhtqv001fkshzrc4l6ss5" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2014/05/03/iphone-5-e7-9d-a1-e7-9c-a0-e5-94-a4-e9-86-92-e6-8c-89-e9-92-ae-e6-9b-b4-e6-8d-a2-e8-ae-a1-e5-88-92/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          iPhone 5 睡眠/唤醒按钮更换计划
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2014/05/01/e6-ac-a7-e5-86-a0-e5-86-b3-e8-b5-9b-e9-a9-ac-e7-ab-9e-e6-88-98-e7-9a-87-e9-a9-ac/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">里斯本(Lisbon)欧冠决赛马竞战皇马</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Free/">Free</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/T-SQL/">T-SQL</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Uncategorized/">Uncategorized</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/体育/">体育</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/前端/技术笔记/">技术笔记</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/技术笔记/">技术笔记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/支持原创/">支持原创</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/足球/">足球</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/转载/">转载</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Transact-SQL/">Transact-SQL</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jQuery/">jQuery</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sql/">sql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/stackoverflow/">stackoverflow</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/t-sql/">t-sql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/uploadify/">uploadify</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Transact-SQL/" style="font-size: 10px;">Transact-SQL</a> <a href="/tags/jQuery/" style="font-size: 10px;">jQuery</a> <a href="/tags/js/" style="font-size: 10px;">js</a> <a href="/tags/sql/" style="font-size: 10px;">sql</a> <a href="/tags/stackoverflow/" style="font-size: 10px;">stackoverflow</a> <a href="/tags/t-sql/" style="font-size: 10px;">t-sql</a> <a href="/tags/uploadify/" style="font-size: 10px;">uploadify</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">December 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">November 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/03/03/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2016/02/25/asp-net-e5-8f-91-e5-b8-83sqlite/">Asp.Net发布Sqlite</a>
+          </li>
+        
+          <li>
+            <a href="/2014/12/03/sqldbx-personal-e7-89-88-e6-9c-ac-e5-8f-af-e4-bb-a5-e5-a4-9a-e5-bc-80-e8-a7-a3-e5-86-b3-e5-8a-9e-e6-b3-95/">SqlDbx personal 版本可以多开解决办法</a>
+          </li>
+        
+          <li>
+            <a href="/2014/11/13/e8-bd-ac-e8-87-aajobbole21-e4-b8-aa-e6-8c-91-e6-88-98-e9-a2-98-ef-bc-8c-e5-87-a0-e6-9d-af-e5-92-96-e5-95-a1-e7-9a-84-e6-97-b6-e9-97-b4-ef-bc-8c-e6-9d-a5-e8-af-95-e8-af-95javascript-e6-8c-81/">[转自jobbole]21个挑战题，几杯咖啡的时间，来试试(Javascript持续实现中...)</a>
+          </li>
+        
+          <li>
+            <a href="/2014/09/30/e4-b8-8d-e5-8f-97-e9-87-8d-e8-a7-86-e7-9a-84-e5-9f-ba-e7-a1-80-e7-9f-a5-e8-af-86/">不受重视的基础知识</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
